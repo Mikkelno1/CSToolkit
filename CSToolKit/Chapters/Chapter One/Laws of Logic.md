@@ -3,6 +3,11 @@ Used to expand and simplify expressions, which makes it faster to find whether t
 expressions are equivalent, as compared to making truth tables for each expression.
 Laws can be applied to both expand and simplify an expression (see distributive law)
 
+This Markdown includes a Layman's terms explanation as well as a formal description of the law. 
+For me, having to include more cognitive load by having to translate the laws from English to my native language
+was too much of a hassle. I opted to translating the laws to my own words and then looking up a more formal 
+definition afterward. 
+
 ## De Morgan's law
 ### Layman's terms
 Negates everything inside parentheses and flips the operator
