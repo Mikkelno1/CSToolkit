@@ -3,6 +3,11 @@
 
 using CSToolKit;
 
-Proposition proposition = new Proposition();
+BooleanLogic booleanLogic = new BooleanLogic();
+TruthTableGenerator ttg = new TruthTableGenerator();
+
 
 //Console.WriteLine(Proposition.Contradiction(false));
+
+
+

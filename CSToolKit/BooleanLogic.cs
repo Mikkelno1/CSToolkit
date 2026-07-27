@@ -1,6 +1,6 @@
 ﻿namespace CSToolKit;
 
-public class Proposition
+public class BooleanLogic
 {
     #region Propositional variables
 
@@ -67,5 +67,7 @@ public class Proposition
     {
         return p && !p;
     }
+
+   
 
 }

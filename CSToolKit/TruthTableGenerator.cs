@@ -1,6 +1,6 @@
 ﻿namespace CSToolKit;
 
-public class Expression
+public class TruthTableGenerator
 {
     
 }

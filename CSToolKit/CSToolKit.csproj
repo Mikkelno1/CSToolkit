@@ -8,11 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Update="Expression.cs">
+      <Compile Update="TruthTableGenerator.cs">
         <DependentUpon>Logic.cs</DependentUpon>
       </Compile>
-      <Compile Update="Proposition.cs">
-        <DependentUpon>Expression.cs</DependentUpon>
+      <Compile Update="BooleanLogic.cs">
+        <DependentUpon>Logic.cs</DependentUpon>
       </Compile>
     </ItemGroup>
 
