@@ -68,6 +68,42 @@ public class BooleanLogic
         return p && !p;
     }
 
+    //a universal quantifier is true only if the predicate is true for every value of x in the domain
+    //returns true if every integer in the array is even
+    public static bool UniversalQuantifier(int[] numberArray)
+    {
+        bool all = true;
+        for (var i = 0; i < numberArray.Length; i++)
+        {
+            if (numberArray[i] % 2 != 0)
+            {
+                all = false;
+                break;
+            }
+        }
+
+        return all;
+    }
+    
+    //an existential quantifier is true if the predicate is true for at least one value of x in the domain
+    //returns true if at least one integer in the array is odd
+    public static bool ExistentialQuantifier(int[] numberArray)
+    {
+        bool all = false;
+        for (var i = 0; i < numberArray.Length; i++)
+        {
+            if (numberArray[i] % 2 != 0)
+            {
+                all = true;
+                break;
+            }
+        }
+
+        return all;
+    }
+    
+   
+
    
 
 }

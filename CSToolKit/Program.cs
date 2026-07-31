@@ -6,8 +6,8 @@ using CSToolKit;
 BooleanLogic booleanLogic = new BooleanLogic();
 TruthTableGenerator ttg = new TruthTableGenerator();
 
-
-//Console.WriteLine(Proposition.Contradiction(false));
+int[] numberArray = [4, 4, 4];
+Console.WriteLine(BooleanLogic.UniversalQuantifier(numberArray));
 
 
 
