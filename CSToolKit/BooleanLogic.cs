@@ -39,15 +39,17 @@ public class BooleanLogic
     }
 
     //the converse of a conditional statement, if p -> q, then the converse is q -> p
+    //logically equivalent to the Conditional() proof
     public static bool ConditionalConverse(bool p, bool q)
     {
-        return !(q && !p);
+        return !q || p;
     }
 
-    //the contrapositive of a conditional statement, if p -> q, then the contrapositive is q -> !p
+    //the contrapositive of a conditional statement, if p -> q, then the contrapositive is !q -> !p
+    //logically equivalent to Conditional()
     public static bool ConditionalContrapositive(bool p, bool q)
     {
-        return q || !p;
+        return !p || q;
     }
 
     //p and only if q

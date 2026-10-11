@@ -16,4 +16,8 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Books\Discrete Maths\" />
+    </ItemGroup>
+
 </Project>
